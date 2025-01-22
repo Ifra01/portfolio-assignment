@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: roboto;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+
+.set-logo {
+    height: 12% !important;
+    width: 15% !important;
+}
+
+@media screen and (min-width:0px) and (max-width:900px) {
+    .set-logo {
+        height: 20% !important;
+        width: 23% !important;
+    }
+
+    .padding {
+        padding: 20px 50px !important;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1150px) {
+    .padding {
+        padding: 20px 90px !important;
+    }
+}
+
+@media screen and (min-width:1150px) and (max-width:2250px) {
+    .padding {
+        padding: 20px 230px !important;
+    }
+}
+
+
+
+.styling {
+    border: 1.33px solid #5E3BEE;
+    border-radius: 5.33px !important;
+    padding: 8px 20px !important;
+}
+
+.color {
+    color: #5E3BEE;
+}
+
+.box-shadow {
+    box-shadow: 0px 5.33px 80px 0px #0000001A;
+}
+
+.font-family {
+    font-family: roboto;
+}
+
+.background-color {
+    background-color: #5E3BEE;
+    color: white;
+}
+
+.bg-color {
+    background-color: #F5FCFF;
+}
+
+.centerize {
+    display: flex;
+    justify-content: center !important;
+}
+
+.box {
+    height: 300px !important;
+    width: 300px !important;
+}
+
+.head-color {
+    color: #282938;
+}
+
+.para-color {
+    color: #1C1E53;
+}
+
+.centerize1 {
+    display: flex;
+    gap: 18px;
+}
+
+.bn {
+    padding: 0 !important;
+    border: none;
+    box-shadow: 0px 0px 32px 0px #00000026;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+.flexing {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.container-size {
+    height: 240px !important;
+    width: 400px !important;
+}
+
+.adjust {
+    height: 12% !important;
+    width: 40% !important;
+}
+
+.adjusting {
+    height: 30% !important;
+    width: 60% !important;
+}
+
+.border {
+    border: 1.33px solid #006B6A !important;
+    border-radius: 8px !important;
+}
+
+.bg {
+    background-color: #F5FCFF;
+}
+
+input {
+    border-color: #5E3BEE;
+    height: 45px !important;
+    border-radius: 8px !important;
+}
+
+.border-color {
+    border-color: #5E3BEE !important;
+}
+
+.app-sizing{
+    height: 13% !important;
+    width: 13% !important;
+}
+
+.secondary{
+    color: #282938;
+}

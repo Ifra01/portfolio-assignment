@@ -15,7 +15,7 @@
     width: 15% !important;
 }
 
-@media screen and (min-width:0px) and (max-width:900px) {
+@media screen and (min-width:0px) and (max-width:991px) {
     .set-logo {
         height: 20% !important;
         width: 23% !important;
@@ -24,11 +24,21 @@
     .padding {
         padding: 20px 50px !important;
     }
+
+    .app-size{
+        height: 40% !important;
+        width: 40% !important;
+    }
 }
 
-@media screen and (min-width:900px) and (max-width:1150px) {
+@media screen and (min-width:992px) and (max-width:1150px) {
     .padding {
         padding: 20px 90px !important;
+    }
+
+    .app-size{
+        height: 13% !important;
+        width: 13% !important;
     }
 }
 
@@ -36,11 +46,22 @@
     .padding {
         padding: 20px 230px !important;
     }
+
+    .app-size{
+        height: 13% !important;
+        width: 13% !important;
+    }
 }
 
 
 
 .styling {
+    border: 1.33px solid #5E3BEE;
+    border-radius: 5.33px !important;
+    padding: 8px 20px !important;
+}
+
+.styling:hover{
     border: 1.33px solid #5E3BEE;
     border-radius: 5.33px !important;
     padding: 8px 20px !important;
@@ -75,6 +96,7 @@
 .box {
     height: 300px !important;
     width: 300px !important;
+    border-radius: 8px !important;
 }
 
 .head-color {
@@ -119,8 +141,8 @@
 }
 
 .adjusting {
-    height: 30% !important;
-    width: 60% !important;
+    height: 18% !important;
+    width: 18% !important;
 }
 
 .border {
@@ -142,7 +164,14 @@ input {
     border-color: #5E3BEE !important;
 }
 
+.border-bottom{
+    border-bottom: 4px solid #5E3BEE !important;
+}
 
-.secondary {
-    color: #282938;
+.b-b{
+    border-bottom: 1.8px solid #5E3BEE !important;
+}
+
+.hr{
+    border-top: 1.8px solid #ced4da;
 }
